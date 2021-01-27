@@ -1,0 +1,61 @@
+package collection;
+
+public class Employee {
+	
+	private String ename;
+	private int empid;
+	private double empSalary;
+	
+	
+	public Employee() {
+		// TODO Auto-generated constructor stub
+	}
+
+
+	public Employee(String ename, int empid, double empSalary) {
+		super();
+		this.ename = ename;
+		this.empid = empid;
+		this.empSalary = empSalary;
+	}
+
+
+	public String getEname() {
+		return ename;
+	}
+
+
+	public void setEname(String ename) {
+		this.ename = ename;
+	}
+
+
+	public int getEmpid() {
+		return empid;
+	}
+
+
+	public void setEmpid(int empid) {
+		this.empid = empid;
+	}
+
+
+	public double getEmpSalary() {
+		return empSalary;
+	}
+
+
+	public void setEmpSalary(double empSalary) {
+		this.empSalary = empSalary;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Employee [ename=" + ename + ", empid=" + empid + ", empSalary=" + empSalary + "]";
+	}
+	
+	
+	
+
+}

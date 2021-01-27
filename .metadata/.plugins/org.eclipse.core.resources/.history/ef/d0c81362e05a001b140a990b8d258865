@@ -1,0 +1,50 @@
+package db.today;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class MyDb {
+	
+	
+	public static void main(String[] args) {
+		
+		
+		connect(true);
+		
+		insert();
+		update();
+		retrive();
+		delete();
+		retrive();
+		
+			
+	}
+	
+	private static void connect(boolean conn)
+	{
+		
+	}
+	
+	private static void insert()
+	{
+		
+	}
+	
+	private static void delete()
+	{
+		
+	}
+	
+	private static void update()
+	{
+		
+	}
+	
+	private static void retrive()
+	{
+		
+	}
+
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="c.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <span class="yellow_border">Registration form</span>
+    <form>
+    <table>
+   
+        <tr>
+            <td>First Name</td>
+            <td><input type="text" placeholder="firstname" required></td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td><input type="text" placeholder="laststname" required></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" placeholder="email" required></td>
+        </tr>
+        <tr>
+            <td>City</td>
+            <td>
+                <select>
+                    <option>Hyderabad</option>
+                    <option>Bangaluru</option>
+                    <option>Chennai</option>
+                    <option>Pune</option>
+                    <option>Mumbai</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Phone</td>
+            <td><input type="text" placeholder="phone" maxlength="10" required></td>
+        </tr>
+        
+        <tr>
+            <td>Gender</td>
+            <td>
+                <input name="gender" type="radio">Male
+                <input name="gender"type="radio"> Female
+            </td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" placeholder="password" maxlength="10" required></td>
+        </tr>
+        <tr align="center">
+            <td colspan="2"><input type="submit" value="submit" required></td>
+        </tr>
+
+    </table>
+</form>
+</body>
+</html>

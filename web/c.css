@@ -1,0 +1,14 @@
+body{
+    background-image: url('https://bloggingwithdemmy.files.wordpress.com/2020/08/single_strawberry__isolated_on_a_white_background.jpg');
+    background-repeat: no-repeat;
+    /* background-color: rgb(241, 227, 163); */
+}
+
+.yellow_border{
+    font-size: 40px;
+    
+    box-shadow: 5px 5px blue;
+    text-shadow: 2px 2px red;
+    /* background-color: rgb(255, 255, 228); */
+    /* border: 1px solid rgb(252, 216, 11); */
+}

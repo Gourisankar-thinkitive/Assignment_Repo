@@ -1,0 +1,13 @@
+package jdbc;
+
+import serial.Employee;
+
+public class Fieldsnames {
+	
+	
+	public static void main(String[] args) {
+		
+		Class c = Class.forName("serial.Employee");
+	}
+
+}

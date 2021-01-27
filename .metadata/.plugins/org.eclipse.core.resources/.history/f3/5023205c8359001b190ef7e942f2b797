@@ -1,0 +1,11 @@
+package io;
+
+import java.io.FileReader;
+import java.io.FileWriter;
+
+public class vowls {
+	
+	FileWriter fr = new FileWriter("abc.txt);
+	FileReader fl = new FileReader("");
+
+}

@@ -1,0 +1,26 @@
+package io;
+
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class vowls {
+	
+	public static void main(String[] args) {
+		
+		try {
+			FileWriter fr = new FileWriter("abc.txt");
+			fr.write("a b c d e f g h i j k l");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		FileReader fl = new FileReader("abc.txt");
+		
+		System.out.println(fl.read());
+	}
+	
+
+}

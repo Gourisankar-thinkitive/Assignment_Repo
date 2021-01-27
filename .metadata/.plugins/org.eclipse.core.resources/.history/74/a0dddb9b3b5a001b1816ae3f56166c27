@@ -1,0 +1,16 @@
+package multiThreading;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		
+		MyClass t1 = new MyClass();
+		AnotherClass t2 = new AnotherClass();
+		
+		
+		t1.start();
+		t2.start();
+	}
+	
+
+}

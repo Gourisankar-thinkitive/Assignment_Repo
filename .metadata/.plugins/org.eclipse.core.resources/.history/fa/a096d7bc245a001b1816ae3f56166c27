@@ -1,0 +1,7 @@
+package multiThreading;
+
+public class MyClass extends Thread {
+	
+	
+
+}

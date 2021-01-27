@@ -1,0 +1,10 @@
+package multiThreading;
+
+public class AnotherClass extends Thread {
+	
+	@Override
+	public void run() {
+		Table.table(10);
+	}
+
+}

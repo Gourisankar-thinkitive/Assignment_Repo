@@ -1,0 +1,24 @@
+package multiThreading;
+
+public class AnotherClass extends MyThread{
+	
+	Table t;
+	
+	public AnotherClass(Table t) {
+		
+		this.t = t;
+	}
+	@Override
+	public void run() {
+		
+		t.table(10);
+		
+//		try {
+//			sleep(1000);
+//		} catch (InterruptedException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+	}
+
+}

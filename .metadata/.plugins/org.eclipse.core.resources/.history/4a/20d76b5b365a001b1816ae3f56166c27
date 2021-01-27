@@ -1,0 +1,17 @@
+package multiThreading;
+
+public class demo {
+	public static void main(String[] args) {
+		
+		
+		MyClass m1 = new MyClass();
+		AnotherClass a1 = new AnotherClass();
+		
+		
+		
+		m1.start();
+		a1.start();
+		
+	}
+
+}

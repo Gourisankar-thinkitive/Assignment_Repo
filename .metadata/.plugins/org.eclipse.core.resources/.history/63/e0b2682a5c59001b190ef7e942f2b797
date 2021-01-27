@@ -1,0 +1,21 @@
+package assignments;
+
+public class Employee<E> {
+	
+	
+	void update()
+	{
+		
+	}
+	
+	void delete()
+	{
+		
+	}
+	
+	void getEmployee()
+	{
+		
+	}
+
+}
