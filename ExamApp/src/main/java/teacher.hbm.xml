@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+
+	<class name="users.Teacher" table="Teacher">
+		<id name="Tid" column="Tid" type="int">
+			<generator class="assigned"></generator>
+		</id>
+
+		<property name="name" column="name" type="string"></property>
+	</class>
+
+	
+
+
+</hibernate-mapping> 

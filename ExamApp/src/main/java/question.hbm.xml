@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+
+	<class name="exam.Question" table="questions">
+		<id name="qId" column="qId" type="int">
+			<generator class="assigned"></generator>
+		</id>
+
+		<property name="question" column="question" type="string"></property>
+		<property name="option1" column="option1" type="string"></property>
+		<property name="option2" column="option2" type="string"></property>
+		<property name="option3" column="option3" type="string"></property>
+		<property name="option4" column="option4" type="string"></property>
+		<property name="answer" column="answer" type="string"></property>
+		
+	
+	</class>
+
+	
+
+
+</hibernate-mapping> 
